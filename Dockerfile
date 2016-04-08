@@ -1,7 +1,7 @@
 FROM tatsushid/tinycore:6.4-x86
 ENV CORE x86 
-ENV NODE_VERSION 0.12.7
-ENV NPM_VERSION 2.14.1
+ENV NODE_VERSION 4.4.2
+ENV NPM_VERSION 3.8.6
 
 RUN tce-load -wic gnupg curl \
     && rm -rf /tmp/tce/optional/*
